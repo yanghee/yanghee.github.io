@@ -33,6 +33,7 @@ theme_settings:
   google_plus:
   instagram:
   linkedin:  # Full URL
+
   pinterest:
   reddit:
   soundcloud:
@@ -79,7 +80,8 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate]
-theme: jekyll-theme-architect
-exclude:
+theme: jekyll-theme-type
+exclude: 
   - Gemfile
   - Gemfile.lock
+  - vendor
