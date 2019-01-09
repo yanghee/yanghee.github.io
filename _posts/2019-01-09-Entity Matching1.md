@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entity Matching - EM
+title: Entity Matching 1
 tags: [python, database, entity, entity matching, translate, study]
 ---
 
@@ -22,13 +22,6 @@ tags: [python, database, entity, entity matching, translate, study]
 <style type="text/css"> 
 span{
     font-weight:500;
-}
-.tuple-label{
-    
-       border:0px;
-       background-color:transparent;
-    
-    
 }
 
 .divid-table{
