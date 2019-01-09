@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [ AngularJS ] $watch에 array를 넣을 수 있을까?
+title: $watch에 array를 넣을 수 있을까?
 tags: [AngularJS, web, javascript, $watch]
 ---
 
