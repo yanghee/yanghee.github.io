@@ -16,7 +16,7 @@ tags: [python, database, entity, entity matching, translate, study]
 세상에는 같은 의미지만 다른 형태의 데이터들이 많다.
 예를 들면 KR과 KOREA는 형태는 다르지만 의미는 같다.<br>
 
-이렇게 <b>서로 의미가 같지만 형태가 다른 데이터는 사람이 확인했을 때는 매칭이 가능하지만 <u>컴퓨터로 매칭하기는 어렵다.</b>
+이렇게 <b>서로 의미가 같지만 형태가 다른 데이터는 사람이 확인했을 때는 매칭이 가능하지만 <u>컴퓨터로 매칭하기는 어렵다.</u></b>
 
 
 <style type="text/css"> 
