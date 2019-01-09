@@ -35,8 +35,8 @@ span{
 
 </style>
 
-<label class="left" style="width:50%;">Table A</label> 
-<label class="left" style="width:50%;padding-left:3%;">Table B</label>
+<label class="left" style="width:50%;"><b>Table A</b></label> 
+<label class="left" style="width:50%;padding-left:3%;"><b>Table B</b></label>
 
 <table class="left divid-table">
 <tbody>
@@ -69,15 +69,35 @@ span{
 </div>
 <br>
 
+서로 다르게 입력된 Table A와 Table B가 있다.  
+Table A와 Table B를 통합하여 Table C를 만들어야 한다고 가정해보자. 
 
-Table A와 Table B를 통합하여 Table C를 만들어야 한다고 가정해보자.
-그러기 위해서 (a1, b1)이 같은 사람임을 확인하는 작업이 먼저 필요하게 된다.
-데이터가 적을 경우 사람이 직접하는 것이 가능하지만 데이터가 많아지게 되면 사람이 이를 하나씩 보면서 확인하는 것은 어렵다. 
-이 때 Entity Matching 을 이용하면 쉽고, 편하게 데이터 통합이 가능하게 된다.
+
+그러기 위해서 두 테이블 안의 사람 데이터들이 서로 같은 사람임을 확인하는 작업이 먼저 필요하게 된다. 
+먼저, 두 테이블에 동일하게 있기 때문에 비교가 가능한 칼럼은 Name, City, State 이다.
+칼럼들을 간단히 분석해보면 Name은 의미는 같지만 형식이 다르게 쓰여있고, State와 City는 형식과 의미가 같음을 알수 있다. 
+
+
+하지만 State와 City 2개만 비교해서는 같은 사람이라고 판단하기 어렵기 때문에 Name 을 비교해야한다.  
+<b>
+Name의 데이터를 사람이 확인해보면 David D. Smith와 Dave Smith는 같은 사람인 것을 알 수 있다. 
+하지만 컴퓨터가 보면 David D. Smith와 Dave Smith는 다른 사람으로 판단한다.
+</b>
+
+
+다른 형식, 같은 의미 데이터를 비교하는 일은 데이터가 적을 경우 사람이 직접하는 것이 가능하다.  
+하지만 데이터가 많아지게 되면 사람이 이를 하나씩 보면서 확인하는 것에는 많은 "시간"과 "노력"이 필요하다.
+
+
+위와 같은 상황에서 이용할 수 있는 방법이 <b>"Entity Matching"</b> 이다.  
+아래에서 설명할 Entity Matching을 이용하면 쉽고, 편하게 데이터 통합이 가능하게 된다.
 
 
 ---
+<br>
+<br>
 
+그럼 왜 필요한지 알았으니 Entity Matching 이 무엇인지 알아보자.
 
 ## Entity Matching : EM ??
 
