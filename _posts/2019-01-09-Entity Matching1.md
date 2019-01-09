@@ -96,10 +96,9 @@ Name의 데이터를 사람이 비교해보면 David D. Smith와 Dave Smith는 �
 위와 같은 상황에서 이용할 수 있는 방법이 바로 <b>"Entity Matching"</b> 이다.  <br>
 Entity Matching을 이용하면 다른 형식, 같은 의미 데이터의 매칭이 쉽고, 편하게되어 손쉬운 데이터 통합이 가능하게 된다.
 
-<br>
 ---
 <br>
-<br>
+
 
 그럼 왜 필요한지 알았으니 Entity Matching 이 무엇인지 알아보자.
 
