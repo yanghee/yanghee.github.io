@@ -43,7 +43,7 @@ width:10%;
 
 <table class="left divid-table">
 <tbody>
-<tr style="width:7%"><th> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
+<tr ><th style="width:7%"> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
 <tr><td class="tuple-label">a1</td><td>Dave Smith<br></td><td>Madison<br></td><td>WI</td><td>30</td></tr>
 <tr><td class="tuple-label">a2</td><td>Joe Wilson<br></td><td>San Jose<br></td><td>CA</td><td>44</td></tr>
 <tr><td class="tuple-label">a3</td><td>Dan Smith<br></td><td>Middleton<br></td><td>WI</td><td>53</td></tr>
