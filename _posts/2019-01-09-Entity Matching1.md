@@ -44,11 +44,11 @@ span{
 
 <table class="left divid-table" style="padding-right:0.5em;">
  <colgroup>
-<col style="width:10%"></col>
-<col></col>
-<col  style="width:25%"></col>
-<col style="width:10%"></col>
-<col style="width:10%"></col>
+<col style="width:15%">
+<col style="width:40%">
+<col>
+<col>
+<col>
  </colgroup>
 <tbody>
 <tr><th class="tuple-label"> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
@@ -60,11 +60,11 @@ span{
 
 <table class="left divid-table" style="padding-left:0.5em;">  
 <colgroup>
-<col style="width:10%"></col>
-<col></col>
-<col  style="width:25%"></col>
-<col style="width:10%"></col>
-<col style="width:10%"></col>
+<col style="width:15%">
+<col style="width:40%">
+<col>
+<col>
+<col>
  </colgroup>
  <tbody>
 <tr><th class="tuple-label"> </th><th>Name</th><th>City</th><th>State</th><th>Sex</th></tr>
