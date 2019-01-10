@@ -30,7 +30,7 @@ span{
 
 }
 .tuple-label{
-width:10%;
+    text-align:right;
 }
 .left{
      float:left;
@@ -42,17 +42,32 @@ width:10%;
 <label class="left" style="width:50%;"><b>Table B</b></label>
 
 
-<table class="left divid-table" style="padding-right:0.5rem;">
+<table class="left divid-table" style="padding-right:0.5em;">
+ <colgroup>
+<col style="width:10%"></col>
+<col></col>
+<col  style="width:25%"></col>
+<col style="width:10%"></col>
+<col style="width:10%"></col>
+ </colgroup>
 <tbody>
-<tr><th style="width:10%;padding-left:0em;padding-right:0.3em"> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
+<tr><th class="tuple-label"> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
 <tr><td class="tuple-label">a1</td><td>Dave Smith<br></td><td>Madison<br></td><td>WI</td><td>30</td></tr>
 <tr><td class="tuple-label">a2</td><td>Joe Wilson<br></td><td>San Jose<br></td><td>CA</td><td>44</td></tr>
 <tr><td class="tuple-label">a3</td><td>Dan Smith<br></td><td>Middleton<br></td><td>WI</td><td>53</td></tr>
 </tbody>
 </table>
 
-<table class="left divid-table" style="padding-left:0.5rem;"> <tbody>
-<tr><th style="width:10%;padding-left:0em;padding-right:0.3em"> </th><th>Name</th><th>City</th><th>State</th><th>Sex</th></tr>
+<table class="left divid-table" style="padding-left:0.5em;">  
+<colgroup>
+<col style="width:10%"></col>
+<col></col>
+<col  style="width:25%"></col>
+<col style="width:10%"></col>
+<col style="width:10%"></col>
+ </colgroup>
+ <tbody>
+<tr><th class="tuple-label"> </th><th>Name</th><th>City</th><th>State</th><th>Sex</th></tr>
 <tr><td class="tuple-label">b1</td><td> David D. Smith </td><td> Madison </td><td> WI </td><td>M</td></tr>
 <tr><td class="tuple-label">b2</td><td> Daniel W. Smith </td><td> Middleton </td><td> WI </td><td>M</td></tr>
 </tbody>
@@ -64,7 +79,7 @@ width:10%;
 <div>
 <label class="left" style=""><b>Table C</b></label>
 <table class=""  > <tbody>
-<tr><td></td><th> Name </th><th> City </th><th> State </th><th> Sex</th><th> Age</th></tr>
+<tr><th class="tuple-label" style="width:15%;"></th><th> Name </th><th> City </th><th> State </th><th> Sex</th><th> Age</th></tr>
 <tr><td class="tuple-label">c1</td><td> David D. Smith </td><td> Madison </td><td> WI </td><td>M</td><td>30</td></tr>
 <tr><td class="tuple-label">c2</td><td> Daniel W. Smith </td><td> Middleton </td><td> WI </td><td>M</td><td></td></tr>
 <tr><td class="tuple-label">c3</td><td> Joe Wlison </td><td> San Jose </td><td> CA </td><td></td><td>44</td></tr>
