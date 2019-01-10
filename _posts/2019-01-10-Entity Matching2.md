@@ -5,7 +5,7 @@ tags: [python, database, entity, entity matching, translate, study,py_entitymatc
 ---
 
 
-2편은 Python으로 Entity Matching을 하기 전에 Entity Matching 수행 과정에 대해서 알아보려고 한다. 
+2편은 Entity Matching 수행 과정에 대해서 알아보려고 한다. 
 
 
 ## The Process of Performing Entity Matching
@@ -58,9 +58,23 @@ C에서 샘플링을 하여 S를 얻는다. 사용자는 이 S에 “일치” �
 개발 단계에서 사용자가 만족하는 정확성이 나오면 제작 단계가 된다. 제작 단계에서는 원본 테이블 A와 B을 이용하여 EM Workflow를 수행한다. 
 
 
+<br><br>
+---
+<br><br>
 지금까지 Entity Matching 수행 단계에 대해서 설명하였다. 
+Blocking and Matching는 EM에서 중요한 단계로 Blocker, Matcher의 정확도에 따라 EM의 결과는 크게 좌우된다.
+그래서 Blocker, Matcher의 성능을 높이기 위해 여러 개를 사용하기도 하며, 다양한 방법으로 정확도를 높이고 있다. 
+
+<br><br>
 다음 3편은 Python의 Entity Matching 인 py_entitymatching 코드에 대해서 살펴보겠다.
 
+
+
+
+
+<br><br>
+<br><br><br><br>
+---
 참고한 자료 <br>
 py_entitymatching 0.3.0 documentation - http://anhaidgroup.github.io/py_entitymatching/v0.3.x/user_manual/overview.html <br>
 “엔티티 매칭을 위한 프레임워크의 비교” - 과학기술 정보연구원 전문연구위원 김홍기
