@@ -43,7 +43,7 @@ width:10%;
 
 <table class="left divid-table">
 <tbody>
-<tr><th> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
+<tr style="width:7%"><th> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
 <tr><td class="tuple-label">a1</td><td>Dave Smith<br></td><td>Madison<br></td><td>WI</td><td>30</td></tr>
 <tr><td class="tuple-label">a2</td><td>Joe Wilson<br></td><td>San Jose<br></td><td>CA</td><td>44</td></tr>
 <tr><td class="tuple-label">a3</td><td>Dan Smith<br></td><td>Middleton<br></td><td>WI</td><td>53</td></tr>
@@ -100,30 +100,30 @@ Entity Matching을 이용하면 다른 형식, 같은 의미 데이터의 매칭
 <br>
 
 
-그럼 왜 필요한지 알았으니 Entity Matching 이 무엇인지 알아보자.
+이제 Entity Matching 이 무엇인지 알아보자.
 
 ## Entity Matching : EM ??
 
 ### Entity 란 무엇일까 ?
-Entity의 사전적 의미는 사람이 생각하는 개념 또는 정보의 세계에서는 의미있는 정보의 단위다. <br>
-쉽게 말하면 Table A는 사람들의 정보를 담고 있는 테이블이다. 
+Entity의 사전적 의미는 사람이 생각하는 개념 또는 정보의 세계에서는 의미있는 정보의 단위이다. <br>
+쉽게 말하면 Table A는 사람들의 정보를 담고 있는 테이블이다.
 이를 명칭할 때 물리적 구조를 의미하는 Table은 "A", 논리적 구조를 의미하는 Entity는 “사람”이다. 
 
 ### Entity Matching란?
-동일한 Entity를 식별하는 것으로, 데이터 통합 및 데이터 정리를 위한 중요한 작업이다. 
-데이터베이스나 탐색 엔진 저장과 같은 이질적인 데이터 집합에 저장된 데이터를 연결하거나 통합하기 위한 핵심적인 방법이다.
+동일한 Entity를 식별하는 것으로, 데이터 통합 및 데이터 정리를 해야할 경우 중요한 작업이다. 
+길게 말해보면, 데이터베이스나 탐색 엔진 저장과 같은 이질적인 데이터 집합에 저장된 데이터를 연결하거나 통합하기 위한 핵심적인 방법이다.
 다른 이름으로는 복제 확인, 레코드 연결, 엔티티 해상도 또는 참조 조정 등으로 불린다. <br>
-<b>Table A와 Table B로 예를 들면, A테이블에 있는 사람들과 B테이블에 있는 사람들이 일치하는지 맞추는 것이다. </b>
-<br>
-<br>
-<br>
+<b>Table A와 Table B로 예를 들면, Table A에 있는 사람들과 Table B에 있는 사람들이 일치하는지 맞추는 방법이다. </b>
 <br>
 <br>
 
+Entity Matching은 다양한 방법으로 수행할 수 있다.
+그 중에 Python 으로 작업을 할 수 있는 <b>"py_entitymatching"</b>에 대해서 깊이 알아보려고 한다.
+<br><br>
+2편은 py_entitymatching 의 수행 과정에 대한 설명이다.
 
-
-
-2편에서는 실제 Entity Matching 수행 과정을 살펴본다.
+<br>
+<br>
 <br>
 <br>
 
