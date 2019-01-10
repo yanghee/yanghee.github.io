@@ -39,7 +39,7 @@ span{
 <label class="left" style="width:48.5%;"><b>Table A</b></label> 
 <label class="left" style="width:50%;"><b>Table B</b></label>
 
-<table class="left divid-table" style="padding-right:4%;">
+<table class="left divid-table" style="margin-right:1%;">
  <colgroup>
 <col style="width:10%">
 <col style="width:31%">
@@ -55,7 +55,7 @@ span{
 </tbody>
 </table>
 
-<table class="left divid-table" style="padding-left:4%;">  
+<table class="left divid-table" style="margin-left:1%;">  
 <colgroup>
 <col style="width:10%">
 <col style="width:31%">
