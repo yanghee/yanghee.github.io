@@ -129,9 +129,14 @@ Entity의 사전적 의미는 사람이 생각하는 개념 또는 정보의 세
 <br>
 
 ---
-
 <br>
 빅 데이터 환경에서 Entity Matching과 같은 데이터 집약적인 작업은 매우 중요하다. <br>
 현재 Entity Matching의 정확도를 높이기 위해 여러 방법과 알고리즘 개발에 대한 연구가 진행중에 있다.
-<br><br><br><br>
+<br><br>
 
+---
+
+#### 참고한 자료 <br>
+* py_entitymatching 0.3.0 documentation - http://anhaidgroup.github.io/py_entitymatching/v0.3.x/user_manual/overview.html <br>
+* “엔티티 매칭을 위한 프레임워크의 비교” - 과학기술 정보연구원 전문연구위원 김홍기
+<br>
