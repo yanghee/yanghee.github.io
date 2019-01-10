@@ -70,7 +70,7 @@ Blocking and Matching는 EM에서 중요한 단계로 Blocker, Matcher의 정확
 
 ---
 
-###참고한 자료 <br>
+### 참고한 자료 <br>
 * py_entitymatching 0.3.0 documentation - http://anhaidgroup.github.io/py_entitymatching/v0.3.x/user_manual/overview.html <br>
 * “엔티티 매칭을 위한 프레임워크의 비교” - 과학기술 정보연구원 전문연구위원 김홍기
 <br>
