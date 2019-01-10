@@ -36,6 +36,7 @@ Entity Matching은 크게 총 3단계로 이루어져있다.
 
 Matching 단계에서는 blocking단계를 통과한 Tuple 쌍들만을 고려하여 각각 쌍들에 대해 “일치+” 또는 “일치하지 않음-”을 예측하여 표시한다. 
 
+<br>
 
 ### 개발 단계
 
@@ -52,6 +53,7 @@ C에서 샘플링을 하여 S를 얻는다. 사용자는 이 S에 “일치” �
 
 ![Example Dev Stage]({{ site.baseurl }}/assets/img/example-dev-stage.png)
 
+<br>
 
 ### 제작 단계 
 사용자가 전체 데이터에 개발단계에서 찾은 EM Workflow를 실행하는 단계이다.
@@ -61,7 +63,7 @@ C에서 샘플링을 하여 S를 얻는다. 사용자는 이 S에 “일치” �
 <br><br>
 ---
 <br><br>
-지금까지 Entity Matching 수행 단계에 대해서 설명하였다. 
+지금까지 Entity Matching 수행 단계에 대해서 설명하였다. <br>
 Blocking and Matching는 EM에서 중요한 단계로 Blocker, Matcher의 정확도에 따라 EM의 결과는 크게 좌우된다.
 그래서 Blocker, Matcher의 성능을 높이기 위해 여러 개를 사용하기도 하며, 다양한 방법으로 정확도를 높이고 있다. 
 
@@ -76,5 +78,5 @@ Blocking and Matching는 EM에서 중요한 단계로 Blocker, Matcher의 정확
 <br><br><br><br>
 ---
 참고한 자료 <br>
-py_entitymatching 0.3.0 documentation - http://anhaidgroup.github.io/py_entitymatching/v0.3.x/user_manual/overview.html <br>
-“엔티티 매칭을 위한 프레임워크의 비교” - 과학기술 정보연구원 전문연구위원 김홍기
+* py_entitymatching 0.3.0 documentation - http://anhaidgroup.github.io/py_entitymatching/v0.3.x/user_manual/overview.html <br>
+* “엔티티 매칭을 위한 프레임워크의 비교” - 과학기술 정보연구원 전문연구위원 김홍기
