@@ -44,7 +44,7 @@ width:10%;
 
 <table class="left divid-table" style="padding-right:0.5em;">
 <tbody>
-<tr><th style="width:10%;padding-left:0em;"> </th><th>Name</th><th  style="width:25%;">City</th><th style="width:10%;">State</th><th style="width:10%;">Age</th></tr>
+<tr><th style="width:10%;padding-left:0em;padding-left:0.3em"> </th><th>Name</th><th>City</th><th>State</th><th>Age</th></tr>
 <tr><td class="tuple-label">a1</td><td>Dave Smith<br></td><td>Madison<br></td><td>WI</td><td>30</td></tr>
 <tr><td class="tuple-label">a2</td><td>Joe Wilson<br></td><td>San Jose<br></td><td>CA</td><td>44</td></tr>
 <tr><td class="tuple-label">a3</td><td>Dan Smith<br></td><td>Middleton<br></td><td>WI</td><td>53</td></tr>
@@ -52,7 +52,7 @@ width:10%;
 </table>
 
 <table class="left divid-table" style="padding-left:0.5em;"> <tbody>
-<tr><th style="width:10%;padding-left:0em;"> </th><th>Name</th><th  style="width:20%;">City</th><th style="width:10%;">State</th><th style="width:10%;">Sex</th></tr>
+<tr><th style="width:10%;padding-left:0em;padding-left:0.3em"> </th><th>Name</th><th>City</th><th>State</th><th>Sex</th></tr>
 <tr><td class="tuple-label">b1</td><td> David D. Smith </td><td> Madison </td><td> WI </td><td>M</td></tr>
 <tr><td class="tuple-label">b2</td><td> Daniel W. Smith </td><td> Middleton </td><td> WI </td><td>M</td></tr>
 </tbody>
