@@ -29,6 +29,7 @@ span{
     text-align:right;
     padding-left:0px;
     padding-right:0.3em;
+}
 .left{
      float:left;
 }
@@ -42,7 +43,7 @@ span{
  <colgroup>
 <col style="width:10%">
 <col style="width:31%">
-<col style="width:15%">
+<col style="width:25%">
 <col>
 <col>
  </colgroup>
@@ -58,7 +59,7 @@ span{
 <colgroup>
 <col style="width:10%">
 <col style="width:31%">
-<col style="width:15%">
+<col style="width:25%">
 <col>
 <col>
  </colgroup>
