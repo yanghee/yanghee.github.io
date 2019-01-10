@@ -131,10 +131,9 @@ Entity의 사전적 의미는 사람이 생각하는 개념 또는 정보의 세
 
 <br>
 
-Entity Matching은 다양한 방법으로 수행할 수 있다.
-그 중에 Python 으로 작업을 할 수 있는 <b>"py_entitymatching"</b>에 대해서 깊이 알아보려고 한다.
+빅 데이터 환경에서 Entity Matching과 같은 데이터 집약적인 작업은 매우 중요하다. <br>
+그래서 여러 방법으로 Entity Matching에 대한 방법이 논문으로 나오고 있다. 우리는 그 중 Python 으로 작업을 할 수 있는 <b>"py_entitymatching"</b>에 대해서 알아보려고 한다.
 <br><br>
-2편은 py_entitymatching 의 수행 과정에 대한 설명이다.
 
 <br>
 <br>
